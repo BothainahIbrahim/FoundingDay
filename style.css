@@ -1,0 +1,140 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fcfaf5;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #4a3728; 
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #d4a373 3px solid;
+}
+
+header .logo {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #d4a373;
+}
+
+header nav {
+    float: left;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://unsplash.com') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #d4a373;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #4a3728;
+}
+
+.about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    color: #4a3728;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+images-row {
+    display: flex;        
+    justify-content: center; 
+    gap: 15px;           
+    padding: 20px;
+    flex-wrap: wrap;     
+}
+
+.images-row img {
+    width: 30%;         
+    min-width: 250px;     
+    height: 32px;         
+    object-fit: cover;     
+    border-radius: 8px;    
+    border: 1px solid #d4a373;
+}
+images-row {
+    display: flex;       
+    justify-content: space-between; 
+    width: 35%;          
+    padding: 20px 0;
+}
+
+.images-row img {
+    width: 32%;         
+    height: 50px;       
+    object-fit: cover;    
+    border-radius: 10px;  
+}
